@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import { Section1_1, Section1_5, Section1_6_1, Section1_8, Section1_9 } from '../pages/chapter-1';
+import { Section1_1, Section1_5, Section1_6_1, Section1_8, Section1_8_2, Section1_9 } from '../pages/chapter-1';
 import { GetComputedStyleDemo } from '../pages/test';
 
 export interface Routers {
@@ -34,8 +34,13 @@ const routerConfig: Routers[] = [
         component: <Section1_8 />,
       },
       {
-        name: '1.9rubberband',
-        path: '/chapter1/1.9rubberband',
+        name: '1.8.2rubberband',
+        path: '/chapter1/1.8.2rubberband',
+        component: <Section1_8_2 />,
+      },
+      {
+        name: '1.9PrintCanvas',
+        path: '/chapter1/1.9PrintCanvas',
         component: <Section1_9 />,
       },
     ],

@@ -4,7 +4,7 @@ import Res from '../../../res';
 
 const { sprite } = Res;
 
-function Section1_9() {
+function Section1_8_2() {
   useEffect(() => {
     const canvas = document.querySelector('#canvas') as HTMLCanvasElement;
     const ctx = canvas.getContext('2d');
@@ -171,4 +171,4 @@ function Section1_9() {
   );
 }
 
-export default Section1_9;
+export default Section1_8_2;
