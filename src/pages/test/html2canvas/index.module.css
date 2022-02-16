@@ -1,0 +1,30 @@
+.container {
+  position: absolute;
+  top: 0;
+  width: 500px;
+  height: 500px;
+}
+
+.text {
+  position: absolute;
+  top: 30px;
+  border: thin solid #000;
+  transform: rotate(30deg);
+}
+
+.img {
+  position: absolute;
+  top: 100px;
+  border: thin solid #000;
+  transform: rotate(90deg);
+}
+
+.button {
+  position: absolute;
+  bottom: 30px;
+}
+
+.download {
+  position: absolute;
+  bottom: 10px;
+}

@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 import { Section1_1, Section1_10, Section1_5, Section1_6_1, Section1_8, Section1_8_2, Section1_9 } from '../pages/chapter-1';
-import { GetComputedStyleDemo, ReduxActionsDemo } from '../pages/test';
+import { GetComputedStyleDemo, Html2CanasDemo, ReduxActionsDemo } from '../pages/test';
 
 export interface Routers {
   name: string; // 在导航栏展示的名称
@@ -62,6 +62,11 @@ const routerConfig: Routers[] = [
         name: 'reduxActionsDemo',
         path: '/chapter2/reduxActionsDemo',
         component: <ReduxActionsDemo />,
+      },
+      {
+        name: 'html2CanasDemo',
+        path: '/chapter2/html2CanasDemo',
+        component: <Html2CanasDemo />,
       },
     ],
   },
