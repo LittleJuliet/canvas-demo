@@ -1,16 +1,17 @@
+.wrapper {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container:nth-of-type(2) {
+  margin-top: 20px;
+}
+
 .canvas {
   border: thin solid #000;
-}
-
-.canvas-2 {
-  margin-left: 30px;
-}
-
-.canvas-3 {
-  margin-top: 30px;
-}
-
-.canvas-4 {
-  margin-left: 30px;
-  margin-top: 30px;
 }

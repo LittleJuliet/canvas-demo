@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-pascal-case */
 import { Section1_1, Section1_10, Section1_5, Section1_6_1, Section1_8, Section1_8_2, Section1_9 } from '../pages/chapter-1';
-import { Alpha, MyRect } from '../pages/chapter-2';
+import { Alpha, Linear, MyRect } from '../pages/chapter-2';
 import { GetComputedStyleDemo, Html2CanasDemo, ReduxActionsDemo } from '../pages/test';
 
 export interface Routers {
@@ -63,6 +63,11 @@ const routerConfig: Routers[] = [
         name: '2.4 Alpha',
         path: '/chapter2/2.4Alpha',
         component: <Alpha />,
+      },
+      {
+        name: '2.5.1 Linear',
+        path: '/chapter2/2.5.1Linear',
+        component: <Linear/>,
       }
     ]
   },
