@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-pascal-case */
-import React from "react";
+import { useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { MyMenu } from "../components";
 
@@ -13,7 +13,6 @@ function Home() {
           flexDirection: "row",
           width: '100%',
           justifyContent: "center",
-          paddingTop: 10,
         }}
       >
         <Outlet />

@@ -29,7 +29,7 @@ function getMenu(routerConfig: Routers[]) {
 
 function MyMenu() {
   return (
-    <Menu mode="inline" style={{ width: 256 }}>
+    <Menu mode="inline" style={{ width: 256, minHeight: '100vh' }}>
       {
         getMenu(routerConfig)
       }

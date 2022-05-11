@@ -1,7 +1,21 @@
 /* eslint-disable react/jsx-pascal-case */
-import { Section1_1, Section1_10, Section1_5, Section1_6_1, Section1_8, Section1_8_2, Section1_9 } from '../pages/chapter-1';
-import { Alpha, Linear, MyRect } from '../pages/chapter-2';
-import { GetComputedStyleDemo, Html2CanasDemo, ReduxActionsDemo } from '../pages/test';
+import {
+  Section1_1,
+  Section1_10,
+  Section1_5,
+  Section1_6_1,
+  Section1_8,
+  Section1_8_2,
+  Section1_9,
+} from '../pages/chapter-1';
+import { Alpha, CircleCutout, DashLine, Drawline, Linear, LineWidth, MyGrid, MyRect, Radial } from '../pages/chapter-2';
+import {
+  ClassRedux,
+  DragBox,
+  GetComputedStyleDemo,
+  Html2CanasDemo,
+  ReduxActionsDemo,
+} from '../pages/test';
 
 export interface Routers {
   name: string; // 在导航栏展示的名称
@@ -67,9 +81,39 @@ const routerConfig: Routers[] = [
       {
         name: '2.5.1 Linear',
         path: '/chapter2/2.5.1Linear',
-        component: <Linear/>,
-      }
-    ]
+        component: <Linear />,
+      },
+      {
+        name: '2.5.2 Radial',
+        path: '/chapter2/2.5.2Radial',
+        component: <Radial />,
+      },
+      {
+        name: '2.7.1 CircleCutout',
+        path: '/chapter2/2.7.1CircleCutout',
+        component: <CircleCutout />,
+      },
+      {
+        name: '2.8.1 LineWidth',
+        path: '/chapter2/2.8.1LineWidth',
+        component: <LineWidth />,
+      },
+      {
+        name: '2.8.2 MyGrid',
+        path: '/chapter2/2.8.2MyGrid',
+        component: <MyGrid />,
+      },
+      {
+        name: '2.8.4 Drawline',
+        path: '/chapter2/2.8.4Drawline',
+        component: <Drawline />,
+      },
+      {
+        name: '2.8.6 DashLine',
+        path: '/chapter2/2.8.6DashLine',
+        component: <DashLine />,
+      },
+    ],
   },
   {
     name: 'Test',
@@ -88,6 +132,16 @@ const routerConfig: Routers[] = [
         name: 'html2CanasDemo',
         path: '/chapter2/html2CanasDemo',
         component: <Html2CanasDemo />,
+      },
+      {
+        name: 'classRedux',
+        path: '/test/classRedux',
+        component: <ClassRedux />,
+      },
+      {
+        name: 'DragBox',
+        path: '/test/dragBox',
+        component: <DragBox />,
       },
     ],
   },

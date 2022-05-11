@@ -1,3 +1,9 @@
 export { default as MyRect } from './2-3-Rect';
 export { default as Alpha } from './2-4-Alpha';
 export { default as Linear } from './2-5-Gradient/2-5-1-Linear';
+export { default as Radial } from './2-5-Gradient/2-5-2-Radial';
+export { default as CircleCutout } from './2-7-Cutout/2-7-1-Circle';
+export { default as LineWidth } from './2-8-Line/2-8-1-LineWidth';
+export { default as MyGrid } from './2-8-Line/2-8-2-Grid';
+export { default as Drawline } from './2-8-Line/2-8-4-DrawLine';
+export { default as DashLine } from './2-8-Line/2-8-6-DashLine';
